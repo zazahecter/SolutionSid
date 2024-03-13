@@ -1,6 +1,6 @@
 import React from 'react'
 import About from '../assets/about.jpg'
-import Card from './Card'
+import Card from './card'
 import Form from './form'
 import Icon1 from '../assets/icon1.png'
 import Icon2 from '../assets/icon2.png'
