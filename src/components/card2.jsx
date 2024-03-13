@@ -20,7 +20,7 @@ function Card2() {
     <>
      <div className="row">
         {cardData.map((card, index) => (
-            <div className="col-md-4 mb-3">
+            <div className="col-md-4 mb-3" data-aos="fade-up">
      <div className="card">
       <img src={card.image} class="card-img-top" alt="..." />
       <div className="card-body">
@@ -34,11 +34,11 @@ function Card2() {
   </div>
 
   <div className="row mt-5">
-    <div className="col-md-6">
+    <div className="col-md-6" data-aos="fade-up">
       <img src={Rec5} className='img-fluid rounded' alt="" />
     </div>
 
-    <div className="col-md-6">
+    <div className="col-md-6" data-aos="fade-up">
       <h2>THE COMPLETE SOLUTION</h2>
       <div className="bg-red mt-3"></div>
       <p>Our warehousing services are known nationwide to be one of the most reliable, safe and affordable, because we take pride in delivering the best of warehousing services, at the most reasonable prices. Pleasure and praising pain was born and I will give you a complete account of system, and expound actual teachings occasionally circumstances.</p>

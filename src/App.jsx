@@ -1,4 +1,4 @@
-
+import React, { useEffect, userState} from 'react'
 import Nav from './components/Header'
 import Home from './components/Home'
 import Contact from './components/Contact'
@@ -8,11 +8,17 @@ import Footer from './components/Footer'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import React, { userState} from 'react'
-import axios from 'axios';
+
+// import axios from 'axios';
 
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration:2000,
+      once:true
+    });
+  }, [])
   return (
     <div>
       <Nav/>

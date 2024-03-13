@@ -1,6 +1,6 @@
 import React from 'react'
 import About from '../assets/about.jpg'
-import Card from './card'
+import Card from './Card'
 import Form from './form'
 import Icon1 from '../assets/icon1.png'
 import Icon2 from '../assets/icon2.png'
@@ -18,18 +18,18 @@ function Home() {
   </div>
 </div>
 <div className="container pt-5">
-  <div className="text-center">
+  <div className="text-center" data-aos="fade-up">
     <h2>Welcome to Crystal Shipment</h2>
     <div className="bg-red mx-auto"></div>
     <p className='pt-3'>Crystal Shipment is more than logistics. We can also optimize your packaging,
      manage your materials sourcing, and so much more.</p>
   </div>
   <div className="row">
-    <div className="col-md-6">
+    <div className="col-md-6" data-aos="fade-up" >
       <img src={About} className='img-fluid rounded' alt="" />
     </div>
 
-    <div className="col-md-6">
+    <div className="col-md-6" data-aos="fade-up" >
       <p className='text-danger'>TRANSPORTATION COMPANY</p>
       <h2>We Provide Full Range Logistic Solution</h2>
       <p>We strongly believe that pursuing all of these goals is in our interest and in the interest of all of our stakeholders are us customers, employees, investors and the planet as a whole. We add value to cargo people’s interaction with us, with excellent services or products. Engaging our employees and nurture investment on the stock holds market we show concern , by engaging our employees and nurture investment on the stock holds market we show concern.</p>
@@ -38,13 +38,13 @@ function Home() {
   </div>
 </div>
 <div className="container pt-5">
-  <div className="text-center">
+  <div className="text-center" data-aos="fade-up" >
      <p className="text-danger">TYPES OF LOGISTIC</p>
      <h2>Covering All Logistics Fields</h2>
   </div>
    <Card/>
 
-   <div className="text-center">
+   <div className="text-center" data-aos="fade-up">
     <a href="" className="btn btn-danger">Load More</a>
    </div>
 </div>
@@ -65,7 +65,7 @@ function Home() {
 
 <div className="container mt-5">
   <div className="row">
-    <div className="col md-6">
+    <div className="col md-6" data-aos="fade-up">
         <h2>WHY CHOOSE US?</h2>
         <div className="d-flex mt-3">
           <div className="flex-grow-1 me-2">
@@ -95,7 +95,7 @@ function Home() {
           </div>
         </div>
     </div>
-    <div className="col md-6">
+    <div className="col md-6" data-aos="fade-up">
       <h2>REQUEST A QUOTE</h2>
       <Form/>
     </div>
