@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body{
+    font-family: "Lato", sans-serif;
+}
+.hero{
+    background: url('../src/assets/1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.mero{
+    background: url('../src/assets/Rectangle1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+h1{
+    font-size: 48px;
+    font-weight: 600;
+}
+.btn-danger{
+    background: #e71800 !important;
+}
+.text-danger{
+    color: #e71800 !important;
+}
+.bg-red{
+    background-color: #e71800;
+    height: 6px;
+    width: 180px;
+    border-radius: 8px;
+}
